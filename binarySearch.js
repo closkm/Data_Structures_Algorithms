@@ -27,7 +27,7 @@ const binarySearch = (array, num) => {
             else end = middle - 1
             middle = Math.floor((start + end)/2)
     }
-    return arr[middle] ? middle : -1;
+    return arr[middle] === num ? middle : -1;
 }
 
 //Time and Space Complexity:
