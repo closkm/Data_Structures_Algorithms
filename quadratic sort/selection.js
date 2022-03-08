@@ -35,7 +35,7 @@ const selectionSort = arr => {
     return arr
 }
 
-//time -> o(n^2)
+//time -> o(n^2) space -> o(1)
 //potentially better than bubble sort if you need to minimize number of swaps
 //you need to make, only make one swap at the end of each loop here
 //Not Very Common for this to occur ^^^^^^
